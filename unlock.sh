@@ -28,7 +28,7 @@ do
 
 	clear
 
-	read -p "Press Enter To Confirm Decryption. Otherwise, Exit Now"
+	read -p "Press Enter To Confirm Decryption. Otherwise, Exit Now" nil
 
 	rm $file_to_unlock $keyfile_path$keyfile_file
 
