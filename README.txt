@@ -11,16 +11,14 @@ Caesar - A Project For Encrypting Files Without Passwords
 	- MacOS (idk but since it is based on BSD...)
 
 	- Cygwin (Windows)
+	
+	- Termux (Android)
 
 3. Dependencies
 
 	- GnuPG
 
-	- Base64
-
-	- head
-
-	- /dev/urandom
+	- zstd
 
 4. Why Caesar?
 
@@ -45,6 +43,8 @@ Caesar - A Project For Encrypting Files Without Passwords
 		- Locks file
 
 		- Removes unencrypted file
+		
+		- Creates a file checksum using Zstandard
 
 	c. unlock.sh
 
